@@ -2,13 +2,13 @@
 
 // It is recommended to not edit this in boards/shields/hillside_d50/,
 // but rather to copy into config/ and edit there.
-
+#include <dt-bindings/zmk/pointing.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/pointing.h>
+
 #include <dt-bindings/zmk/mouse.h>
 
 // Can only use one of backlight or RGB
