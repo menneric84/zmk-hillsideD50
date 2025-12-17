@@ -3,12 +3,9 @@ id: hillside_d50
 name: Hillside D50
 type: shield
 url: https://github.com/mmccoyd/hillside/
-requires: [nrfmicro]
+requires: [nrfmicro/nrf52840]
 features:
   - keys
-  - backlight
-  - underglow
-  - display
   - studio
 siblings:
   - hillside_d50_left
