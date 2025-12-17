@@ -25,7 +25,7 @@
 include:
   # Dactyl 50
   - board: nrfmicro/nrf52840
-    shield: hillside_d50_left nice_view
+    shield: hillside_d50_left
     # Uncomment these two lines to enable ZMK Studio support
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
@@ -36,7 +36,7 @@ include:
   # Keymap only changes only need t rebuild the central (left) side
   # as it manages the keymap.
   - board: nrfmicro/nrf52840
-    shield: hillside_d50_right nice_view
+    shield: hillside_d50_right
 
   # Settings Reset board
   # You only need this when you are reshuffling MCU pairs around
