@@ -24,7 +24,7 @@
 ---
 include:
   # Dactyl 50
-  - board: nrfmicro
+  - board: nrfmicro/nrf52840
     shield: hillside_d50_left nice_view
     # Uncomment these two lines to enable ZMK Studio support
     snippet: studio-rpc-usb-uart
@@ -35,7 +35,7 @@ include:
   # you often can comment out these lines to reduce your build CPU use in half.
   # Keymap only changes only need t rebuild the central (left) side
   # as it manages the keymap.
-  - board: nrfmicro
+  - board: nrfmicro/nrf52840
     shield: hillside_d50_right nice_view
 
   # Settings Reset board
