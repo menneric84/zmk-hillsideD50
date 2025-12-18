@@ -41,5 +41,5 @@ include:
   # Settings Reset board
   # You only need this when you are reshuffling MCU pairs around
   # Enable if needed
-  # - board: nice_nano_v2
-  #   shield: settings_reset
+  - board: nrfmicro/nrf52840
+    shield: settings_reset
