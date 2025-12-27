@@ -2,7 +2,7 @@
 
 // Shift the right 6 columns over as the left half is 6 columns wide.
 &default_transform {
-    col-offset = <7>;
+    col-offset = <5>;
 };
 
 &kscan0 {
